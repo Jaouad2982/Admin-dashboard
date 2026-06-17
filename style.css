@@ -36,6 +36,7 @@
   background-color: #e2e8f0;
   grid-area: main-section;
   padding: 24px;
+  position: relative;
 }
 
 .navbar {
@@ -170,6 +171,7 @@ p {
   justify-content: flex-start;
   position: relative;
   font-size: 12px;
+  border-radius: 5px;
 }
 
 /* .footer-li {
@@ -228,4 +230,43 @@ p {
 .icon h4 {
   font-weight: 900;
   font-size: 1.5rem;
+}
+
+.trending ul div {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.one-column-section h4,
+.one-column-section h5 {
+  display: flex;
+  justify-content: center;
+}
+
+.project-title {
+  position: absolute;
+  top: 6px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  color: rgb(37, 37, 37);
+  margin-left: auto;
+  margin-top: 12px;
+}
+
+.card p,
+.one-column-section p {
+  font-size: 12px;
+  line-height: 1.2rem;
+}
+
+.card h5 {
+  margin-bottom: 12px;
+  margin-bottom: 12px;
+  font-size: 16px;
 }
