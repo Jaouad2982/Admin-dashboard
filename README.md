@@ -7,12 +7,8 @@ This dashboard provides a clean UI for managing data, tracking analytics, and pe
 
 ## 🚀 Features
 
-- **Responsive Layout** – Works seamlessly on desktop, tablet, and mobile.
-- **Sidebar Navigation** – Collapsible menu for quick access to sections.
-- **Interactive Charts** – Visualize data using chart libraries.
-- **User Management** – Add, edit, and remove users.
-- **Analytics Overview** – Display KPIs, stats, and trends.
-- **Dark/Light Mode** – Toggle between themes.
+- **Responsive Layout** – Works seamlessly on desktop, tablet, and mobile. "Not finished Yet"
+- **User Management** – Add, edit, and remove users. "To do"
 - **Reusable Components** – Cards, tables, modals, and forms.
 
 ---
@@ -21,7 +17,6 @@ This dashboard provides a clean UI for managing data, tracking analytics, and pe
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 - **Styling:** CSS Flexbox/Grid, custom variables
-- **Charts:** Chart.js / ApexCharts (if applicable)
 - **Icons:** Font Awesome / Material Icons
 - **Version Control:** Git & GitHub
 
