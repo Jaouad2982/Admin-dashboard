@@ -10,7 +10,7 @@ function openModal() {
   modal.style.display = "block";
 }
 
-closemodal = document.querySelector(".closemodal");
-closemodal.addEventListener("click", function () {
+closeModal = document.querySelector(".close-modal");
+closeModal.addEventListener("click", function () {
   modal.style.display = "none";
 });
