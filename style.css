@@ -5,6 +5,7 @@
 }
 
 .main-container {
+  font-family: "Times New Roman", Times, serif;
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
@@ -190,10 +191,6 @@ p {
   gap: 24px;
 } */
 
-.trending {
-  padding: 12px;
-}
-
 .two-columns-section {
   display: flex;
   justify-content: flex-start;
@@ -235,8 +232,9 @@ p {
 .trending ul div {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  align-items: baseline;
   margin-top: 6px;
+  width: 60%;
 }
 
 .one-column-section h4,
@@ -253,8 +251,8 @@ p {
 .icons {
   display: flex;
   justify-content: space-around;
-  width: 45%;
-  color: rgb(37, 37, 37);
+  width: 50%;
+  color: rgb(168, 168, 168);
   margin-left: auto;
   margin-top: 12px;
 }
@@ -262,11 +260,22 @@ p {
 .card p,
 .one-column-section p {
   font-size: 12px;
+  font-weight: 500;
   line-height: 1.2rem;
+  color: rgb(168, 168, 168);
 }
 
 .card h5 {
   margin-bottom: 12px;
   margin-bottom: 12px;
   font-size: 16px;
+}
+
+.inner-icons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  font-size: 10px;
+  gap: 3px;
 }
