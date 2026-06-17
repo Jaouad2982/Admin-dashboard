@@ -15,6 +15,7 @@
     "sidebar header"
     "sidebar main-section ";
   gap: 5px;
+  position: relative;
 }
 
 .header {
@@ -101,7 +102,8 @@ img {
   width: 25%;
 }
 
-.second-nav-ul-two button {
+.second-nav-ul-two button,
+.modal button {
   border-radius: 10px; /* Adjust for more or less rounding */
   padding: 5px 20px;
   align-self: baseline;
@@ -285,4 +287,36 @@ p {
   height: 1px;
   width: 70%;
   margin-bottom: 12px;
+}
+
+.modal {
+  height: 140px;
+  background-color: #e2e8f0;
+  display: flex;
+  color: rgba(44, 43, 43, 0.473);
+  font-size: 12px;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 14rem;
+  padding: 34px;
+  left: 26rem;
+  z-index: 1;
+}
+
+.closemodal {
+  position: absolute;
+  top: 6px;
+  left: 26rem;
+}
+
+.closemodal:hover {
+  cursor: pointer;
+}
+
+.btns-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
 }
