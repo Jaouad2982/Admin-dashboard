@@ -18,11 +18,45 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
           sed!
         </p>
+
         <div class="btns-modal">
           <button>New</button>
           <button>Updated</button>
-          <button>Share</button>
+          <button class="share">Share</button>
         </div>
+        <form class="contact-form" action="send_form.php" method="POST">
+          <span class="close-form">X</span>
+          <h2>Contact Us</h2>
+
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name..."
+            required
+          />
+
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email..."
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Write your message..."
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
       </div>
       <header class="header">
         <nav class="navbar">
@@ -47,7 +81,7 @@
           <ul class="second-nav-ul-two">
             <button>New</button>
             <button>Upload</button>
-            <button>Share</button>
+            <button class="share">Share</button>
           </ul>
         </nav>
       </header>
